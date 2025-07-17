@@ -5,8 +5,8 @@ import numpy as np
 from typing import Iterable, Optional, Union, Tuple
 import pandas as pd
 from ananke.graphs import ADMG
-from .code.method_config import *
-from .code.augmenter_full import ADMGTianAugmenter
+from .method_config import *
+from .augmenter_full import ADMGTianAugmenter
 
 
 class EagerCausalDataAugmentation:

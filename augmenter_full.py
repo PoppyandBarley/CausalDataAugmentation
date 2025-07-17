@@ -2,8 +2,8 @@
 """
 import numpy as np
 import pandas as pd
-from causalaug.code.augmenter_kernel import AugmenterKernel
-from causalaug.code.vanilla import VanillaProductKernel, VanillaProductKernelConfig, KernelWeightComputer, UnconditionalWeightComputer
+from .augmenter_kernel import AugmenterKernel
+from .vanilla import VanillaProductKernel, VanillaProductKernelConfig, KernelWeightComputer, UnconditionalWeightComputer
 
 # Type hinting
 from typing import Tuple, Iterable, Optional, List

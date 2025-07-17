@@ -1,6 +1,6 @@
 import numpy as np
 from dataclasses import dataclass, field  # https://docs.python.org/ja/3/library/dataclasses.html
-from causalaug.code.base import WeightComputer
+from .base import WeightComputer
 
 # Type hinting
 from typing import Tuple, List, Optional, Callable
